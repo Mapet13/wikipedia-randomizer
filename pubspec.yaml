@@ -1,0 +1,31 @@
+name: wikipedia_randomizer
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  url_launcher: ^5.1.2
+  rxdart: ^0.22.1+1
+  test_api: ^0.2.5
+
+dev_dependencies:
+  mockito: ^4.1.0
+  test: ^1.6.2
+
+dependency_overrides:
+  file_testing: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
